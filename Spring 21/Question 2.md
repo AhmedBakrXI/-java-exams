@@ -1,7 +1,5 @@
 # Note: I copied this answer and it is taken from a model answer for CSE 231 credit 2019
-## ⭐Quick record:
-
-Uploading S21 Question 2.mov…
+## [⭐Quick record](https://drive.google.com/uc?export=view&id=1t-XqO7G6cSiaul_A0T9mNpp7LVTleFaO)
 
 
 ## 1) What is the difference in the equals method in the two implementations of MyInt class.
