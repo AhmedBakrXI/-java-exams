@@ -47,7 +47,7 @@ Object c = new MyInt(3);
 System.out.println(a.equals(b));
 System.out.println(a.equals(c));
 ```
-|  Case (A): | Case (B):    | 
+|  Case (A) | Case (B)    | 
 | :---:   | :---: |
 | true | true   | 
 | true   | false |
