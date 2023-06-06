@@ -1,4 +1,4 @@
-# @@ this answer is taken from an model answer for CSE 231 credit 2019
+# Note: I copied this answer and it is taken from a model answer for CSE 231 credit 2019
 ## 1) What is the difference in the equals method in the two implementations of MyInt class.
 In (A), the method is overridden from the Object class. The new implementation is always going to be invoked
 regardless of the passed object type.
