@@ -27,3 +27,10 @@ public static <T> void print(T[] obj) {
         }
     }
 ```
+
+## 3.c)
+![image](https://github.com/AhmedBakrXI/-java-exams/assets/114930002/eea6f9b2-6e90-4dd9-a687-f1cabeb8fd53)
+### Output:
+``` 
+aaaabbbb
+```
