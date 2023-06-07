@@ -65,14 +65,25 @@ class Course{
 
     @Override
     public boolean equals(Object obj) {
-        return super.equals(obj);
+        if(this.courseCode == ((Course)obj).courseCode &&
+        this.courseName == ((Course)obj).courseName &&
+        this.creditHours == ((Course)obj).creditHours){
+            for (int i = 0; i < students.length; i++){
+                if(!this.students[i].equals(((Course)obj).students[i])){
+                    return false;
+                }
+            }
+            return true;
+        }
+        return false;
     }
 
     @Override
     public String toString() {
-        return super.toString();
+        return  "Course Code: " + this.courseCode +
+                "Course Name: " + this.courseName +
+                "Course hours: " + this.creditHours;
     }
-
     public void register(Student student){
         if(this.offered){
             if((student.getHours() + this.creditHours) <= 21 && student.getGPA() >= 3.0){
