@@ -30,6 +30,7 @@ class Player {
 ### ii. What is the relationship between class Team and class Player? (2 points)
 -   Aggregation
 ### iii. Draw the UML class diagram for the given code. 
+***Note: I forgot the constructors in the UML 🙂💔***
 ![image](https://github.com/AhmedBakrXI/-java-exams/assets/114930002/f2e67bb8-1914-4686-aa4b-7c0475af8230)
 ![image](https://github.com/AhmedBakrXI/-java-exams/assets/114930002/03fafe5c-c05a-430c-8288-58417c42d286)
 
