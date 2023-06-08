@@ -95,11 +95,32 @@ class TestSuper3 {
 ```
 ### Output: 
 ```
-"Base is invoked"
-"Base is invoked"
-"Derived is created"
+Base is invoked
+Base is invoked
+Derived is created
 ```
 
+## e)
+``` java
+public class Test {
+    public static void main(String[] args) {
+       // Creating two instances of Object class and assigning them to o1 & o2
+        Object o1 = new Object();
+        Object o2 = new Object();
+        // print the result of (o1 == o2) + "  " + o1.equals(o2)
+        System.out.println((o1 == o2) + "  " + o1.equals(o2));
+        // Output: false false
+        // first is false because " o1 == o2 " returns false because " o1 == o2 " compares between two references
+        // and they don't point to the same object 
+        // second is false bcz implementation of equals in the object class also compares the references
+        //if parentheses around " o1==o2 " are not there it will only print false
+        //bcz it will treat every thing after the "==" as the same operand
+    }
+}
+
+
+
+```
 
 
 
