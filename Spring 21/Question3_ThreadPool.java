@@ -1,5 +1,5 @@
-package chapter30;
 
+//the same as the code in Question 3 but main is changhed to create 1000 threads using a thread pool 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
