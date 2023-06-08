@@ -57,6 +57,48 @@ public class Test {
 }
 ```
 
+## d)
+``` java
+// Creating class base
+class Base {
+   // Creating non parameterized constructor of class Base
+    Base() {
+       // On calling the constructor print "Base is invoked"
+        System.out.println("Base is invoked");
+    }
+}
+
+// Creating class Derived that extends Base
+class Derived extends Base {
+  // Creating non parameterized constructor of class Derived
+    Derived() {
+       // Note that the compiler adds super() automatically 
+       // super(); 
+       // Print "Derived is created"
+        System.out.println("Derived is created");
+    }
+}
+
+// Test class
+class TestSuper3 {
+// main method
+    public static void main(String args[]) {
+       // Creating an instance of Base
+        Base b = new Base();  // print "Base is invoked"
+        
+        // Creating an instance of Derived
+        // print "Base is invoked" 
+        // "Derived is created"
+        Derived d = new Derived();
+    }
+}
+```
+### Output: 
+```
+"Base is invoked"
+"Base is invoked"
+"Derived is created"
+```
 
 
 
