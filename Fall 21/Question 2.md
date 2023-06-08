@@ -92,4 +92,5 @@ class BigDog extends Dog {
         dog2.greets(bigDog2); // Woooof
         bigDog2.greets(dog2); // Woooooow
         bigDog2.greets(bigDog1); // Wooooooooow
+        //for number (c) Run-time polymorphism is implemented through Method overriding, and Compile-time polymorphism is implemented through Method overloading and Operator overloading. 
  ```
