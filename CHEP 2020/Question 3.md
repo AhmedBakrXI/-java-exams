@@ -17,6 +17,7 @@ public static <T> void print(T[] obj) {
         }
     }
 ```
+### ***Note: you can omit .toString()***
 
 ## 3.b)
 What does the following statement do? Why do we need Thread pools? 
