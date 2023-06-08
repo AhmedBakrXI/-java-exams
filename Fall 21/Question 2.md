@@ -60,7 +60,7 @@ class BigDog extends Dog {
 }
 ```
 
-## 2.b, c)
+## 2.b
 ![image](https://github.com/AhmedBakrXI/-java-exams/assets/114930002/3850bb9e-082a-4844-ace3-f55ee237a247)
 
 ``` java
@@ -94,3 +94,37 @@ class BigDog extends Dog {
         bigDog2.greets(bigDog1); // Wooooooooow
         //for number (c) Run-time polymorphism is implemented through Method overriding, and Compile-time polymorphism is implemented through Method overloading and Operator overloading. 
  ```
+
+## 2.c
+
+``` java
+Dog dog1 = new Dog("D");
+dog1.greets(); // Woof
+
+Dog dog2 = (Dog) animal2;
+dog2.greets(dog3); // Woooof
+
+...
+Compile time Polymorphism example : as in one class there are two different implementations for the same method 
+And what decides which to be called is the signature has been called with
+
+
+
+//Run-time polymorphism:
+
+Animal animal1 = new Cat("C");
+animal1.greets(); // Meow
+// with 
+Animal animal3 = new BigDog("Big");
+animal3.greets(); // Wooow
+
+also in 
+dog2.greets(dog3); // Wooooof  as a dog greats a dog 
+//with
+bigDog2.greets(dog2); // Woooooow   as a bog dog greets a dog
+
+
+//So the same method greets(Dog d) has been overridden in two different classes .
+ //The decision on which implementation of the greets(Dog d) method to call is made at runtime based on the actual type of the object being referred to.
+
+
