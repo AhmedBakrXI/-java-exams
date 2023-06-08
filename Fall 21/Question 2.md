@@ -98,6 +98,8 @@ class BigDog extends Dog {
 ## 2.c
 
 ``` java
+Compile-time polymorphism:
+
 Dog dog1 = new Dog("D");
 dog1.greets(); // Woof
 
