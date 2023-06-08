@@ -6,3 +6,5 @@
 ## Spring 21
 - Question 1.5 ---> there were missing brackets that affected the final answer
 - Question 3 ThreadPool ---> another solution to solve the question using a thread pool
+## Fall 21
+- Question 2.c ---> added a comment at the end for number c
