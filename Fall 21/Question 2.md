@@ -110,7 +110,7 @@ And what decides which to be called is the signature has been called with
 
 
 
-//Run-time polymorphism:
+Run-time polymorphism:
 
 Animal animal1 = new Cat("C");
 animal1.greets(); // Meow
@@ -123,8 +123,8 @@ dog2.greets(dog3); // Wooooof  as a dog greats a dog
 //with
 bigDog2.greets(dog2); // Woooooow   as a bog dog greets a dog
 
-
-//So the same method greets(Dog d) has been overridden in two different classes .
- //The decision on which implementation of the greets(Dog d) method to call is made at runtime based on the actual type of the object being referred to.
+...
+So the same method greets(Dog d) has been overridden in two different classes .
+ The decision on which implementation of the greets(Dog d) method to call is made at runtime based on the actual type of the object being referred to.
 
 
