@@ -27,6 +27,7 @@ class Test {
 
 ## (6) Suppose A is an inner class in class Test. What is the name(s) of the compiled file(s)? 
 - Test$A.class
+- Test.class
 
 ## (7) Which of the following statements is preferred to create a string "Welcome to Java"?
 ``` java
