@@ -53,7 +53,7 @@ than (c).
 - False. Java doesn't allow multiple inheritance, so each class can "extends" one class only to avoid diamond problem and complexities.
 
 ## (10) (True or False) Java supports 4 different access modifiers for class members
-- True. public, private, protected and no modifier or friendly modifier
+- True. public, private, protected and no modifier or friendly modifier (Default modifier)
 
 
 
