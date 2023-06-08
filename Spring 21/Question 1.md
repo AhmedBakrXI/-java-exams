@@ -60,11 +60,13 @@ public class Test {
     public static void main(String[] args) {
         Object o1 = new Object();
         Object o2 = new Object();
-        System.out.println(o1 == o2 + "  " + !o1.equals(o2));
-        // Output: false
-        // because " o1 == o2 " returns false because " o1 == o2 " compares between two references
+        System.out.println((o1 == o2) + "  " + o1.equals(o2));
+        // Output: false false
+        // first is false because " o1 == o2 " returns false because " o1 == o2 " compares between two references
         // and they don't point to the same object 
-        // once " o1 == o2 " returns false it will not complete sout statement
+        // second is false bcz implementation of equals in the object class also compares the references
+        //if parentheses around " o1==o2 " are not there it will only print false
+        //bcz it will treat every thing after the "==" as the same operand
     }
 }
 
