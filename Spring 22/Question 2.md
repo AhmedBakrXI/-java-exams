@@ -36,6 +36,27 @@ class Fruit {
 }
 ```
 
+## c)
+``` java
+public class Test {
+    public static void main(String[ ] args) {
+        // Create a Number object 'x' and assign it an Integer instance with a value of 3
+        Number x = new Integer (3);
+        // Print the integer value of 'x' using the intValue() method
+        System.out.println(x.intValue());
+        /* 
+         * Compile error: x doesn't contain a function called compareTo() because class Number doesn't implement Comparable interface
+         * Note that the dot operator has higher priority than casting
+         * Correction: System.out.println(((Integer) x).compareTo(new Integer(4)));
+         * Output: 
+         * 3
+         * -1
+         */
+        System.out.println( (Integer) x.compareTo(new Integer(4)));
+    }
+}
+```
+
 
 
 
