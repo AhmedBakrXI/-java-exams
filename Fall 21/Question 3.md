@@ -5,7 +5,7 @@ public void readFile(String filename) {
         try {
             Scanner scan = new Scanner(file);
         } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
+            System.out.println("File not found"); // or throw new RuntimeException(e);
         }
     }
 ```
