@@ -1,6 +1,6 @@
 public class Question3 {
     public static void main(String[] args){
-        Thread[] threads = new Thread[5];
+        Thread[] threads = new Thread[1000]; 
         IntWrapper intWrapper = new IntWrapper();
         for (int i = 0; i < threads.length; i++){
             threads[i] = new Thread(intWrapper);
