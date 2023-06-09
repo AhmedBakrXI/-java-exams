@@ -11,7 +11,7 @@
 </br>
 
 ### 4) (True/False) Polymorphism means that we can add additional features to an existing class without modifying it. 
-### - True
+### - False. Inheritance
 </br>
 
 ### 5) Why "@Override" is used before the definition of a function? 
