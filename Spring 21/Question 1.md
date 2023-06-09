@@ -95,3 +95,4 @@ All Runtime exceptions
 
 ## 10) To add a node to the first row and second column in a GridPane pane, use ...
 gridPane.add( Node, column, row);
+- gridPane.add( Node, 2, 1);
