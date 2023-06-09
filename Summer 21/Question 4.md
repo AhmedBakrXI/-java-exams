@@ -66,7 +66,7 @@ class Course{
     @Override
     public boolean equals(Object obj) {
         if(this.courseCode == ((Course)obj).courseCode &&
-        this.courseName == ((Course)obj).courseName &&
+        this.courseName.equals(((Course)obj).courseName) &&
         this.creditHours == ((Course)obj).creditHours){
             for (int i = 0; i < students.length; i++){
                 if(!this.students[i].equals(((Course)obj).students[i])){
