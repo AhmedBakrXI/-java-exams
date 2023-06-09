@@ -16,6 +16,7 @@ public class Plane extends Vehicle {
     String from, to;
 
     public Plane(int no_of_Passengers, String from, String to) {
+        // error we should have used super(no_of_Passengers);
         this.no_of_Passengers = no_of_Passengers;
         this.from = from;
         this.to = to;
