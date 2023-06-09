@@ -34,7 +34,7 @@ class Dog extends Animal{
         System.out.println("Woof");
     }
 
-    public void greets(Dog dog){
+    public void greets(Dog another){
         System.out.println("Woooof");
     }
 }
@@ -50,11 +50,11 @@ class BigDog extends Dog {
         System.out.println("Wooow");
     }
     @Override
-    public void greets(Dog dog) {
+    public void greets(Dog another) {
         System.out.println("Woooooow");
     }
 
-    public void greets(BigDog bigDog){
+    public void greets(BigDog another){
         System.out.println("Wooooooooow");
     }
 }
