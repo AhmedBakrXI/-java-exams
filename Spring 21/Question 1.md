@@ -82,14 +82,10 @@ public class Test {
 - join()
 
 ## 8) (TRUE/False) A synchronized statement can be used to acquire a lock on any object, not just this object, when executing a block of the code in a method. 
-- False. As we use "this" keyword to declare a synchronized block
-``` java
-synchronized (this){
-/*
-  ...
-*/
-}
-```
+- True
+هي محلولة كدا علي موقع بس أنا صراحة مش فاهم قصده ايه فهو غالبا ممكن يقصد أي أوبجيكت من الكلاس ده أو حاجة
+![image](https://github.com/AhmedBakrXI/-java-exams/assets/114930002/4f6cc469-df45-4951-9f61-298072ac3921)
+
 
 ## 9) Give examples of classes that are unchecked exceptions. 
 All Runtime exceptions
