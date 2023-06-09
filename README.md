@@ -24,3 +24,5 @@
 - Question 2.c ---> Updated the answer of number c
 ## Spring 22
 - Question 3 ---> Eng. Andrew Ayman has added a modification for the code to match the exam question
+## Summer 21 
+- Question 1.4
