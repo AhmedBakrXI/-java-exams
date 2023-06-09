@@ -22,3 +22,5 @@
 ## Fall 21
 - Question 2.c ---> added a comment at the end for number c
 - Question 2.c ---> Updated the answer of number c
+## Spring 22
+- Question 3 ---> Eng. Andrew Ayman has added a modification for the code to match the exam question
